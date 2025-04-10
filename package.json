@@ -5,8 +5,8 @@
 	"type": "module",
 	"scripts": {
 		"init-environment": "bun install",
-		"test": "bun test",
-		"test-watch": "bun test --watch",
+		"test": "bun test src",
+		"test-watch": "bun test --watch src",
 		"dev": "bunx --bun vite",
 		"build": "tsc -b && bunx --bun vite build",
 		"preview": "bunx --bun vite preview",
